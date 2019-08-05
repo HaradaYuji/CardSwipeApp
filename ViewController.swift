@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     // 選択されたカードの数を数える変数
     var selectedCardCount: Int = 0
     // ユーザーの名前の配列
-    let nameList: [String] = ["津田梅子","ジョージワシントン","ガリレオガリレイ","ジョン万次郎","板垣退助"]
+    let nameList: [String] = ["津田梅子","ジョージワシントン","ガリレオガリレイ","板垣退助","ジョン万次郎"]
     // 「いいね」をされた名前の配列
     var likedName: [String] = []
 
@@ -168,6 +168,7 @@ class ViewController: UIViewController {
             }
         }
     }
+
     // バツボタンを押した処理
     @IBAction func disLikeButtonTapped(_ sender: Any) {
         UIView.animate(withDuration: 0.5, animations: {
